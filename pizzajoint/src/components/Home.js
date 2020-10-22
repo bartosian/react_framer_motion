@@ -6,7 +6,8 @@ const Home = () => {
   return (
     <motion.div
       className="home container"
-      animate={{}}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
     >
       <h2>
         Welcome to Pizza Joint
